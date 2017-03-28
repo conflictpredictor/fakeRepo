@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "login": "fmallet",
+      "name": "Freddy Mallet",
+      "active": true,
+      "email": "f@m.com",
+      "scmAccounts": [],
+      "groups": [
+        "sonar-users",
+        "sonar-administrators"
+      ],
+      "tokensCount": 1,
+      "local": true,
+      "externalIdentity": "fmallet",
+      "externalProvider": "sonarqube"
+    },
+    {
+      "login": "sbrandhof",
+      "name": "Simon",
+      "active": true,
+      "email": "s.brandhof@company.tld",
+      "scmAccounts": [
+        "simon.brandhof",
+        "s.brandhof@company.tld"
+      ],
+      "groups": [
+        "sonar-users"
+      ],
+      "tokensCount": 3,
+      "local": false,
+      "externalIdentity": "sbrandhof@ldap.com",
+      "externalProvider": "LDAP"
+    }
+  ]
+}

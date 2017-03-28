@@ -1,0 +1,71 @@
+exports[`test should not render breadcrumbs with one element 1`] = `
+<h2
+  className="navbar-context-title">
+  <span>
+    <span
+      className="navbar-context-title-qualifier little-spacer-right">
+      <qualifier-icon
+        qualifier="TRK" />
+    </span>
+    <Link
+      className="link-base-color"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to={
+        Object {
+          "pathname": "/dashboard",
+          "query": Object {
+            "id": "my-project",
+          },
+        }
+      }>
+      <strong>
+        My Project
+      </strong>
+    </Link>
+  </span>
+</h2>
+`;
+
+exports[`test should render organization 1`] = `
+<h2
+  className="navbar-context-title">
+  <span>
+    <span
+      className="navbar-context-title-qualifier little-spacer-right">
+      <qualifier-icon
+        qualifier="TRK" />
+    </span>
+    <OrganizationLink
+      className="link-base-color"
+      organization={
+        Object {
+          "key": "foo",
+          "name": "The Foo Organization",
+        }
+      }>
+      The Foo Organization
+    </OrganizationLink>
+    <span
+      className="slash-separator" />
+  </span>
+  <span>
+    <Link
+      className="link-base-color"
+      onlyActiveOnIndex={false}
+      style={Object {}}
+      to={
+        Object {
+          "pathname": "/dashboard",
+          "query": Object {
+            "id": "my-project",
+          },
+        }
+      }>
+      <strong>
+        My Project
+      </strong>
+    </Link>
+  </span>
+</h2>
+`;

@@ -1,0 +1,38 @@
+exports[`Reducer should have initial state 1`] = `
+Object {
+  "byKey": Object {},
+  "my": Array [],
+}
+`;
+
+exports[`Reducer should receive organizations 1`] = `
+Object {
+  "byKey": Object {
+    "bar": Object {
+      "key": "bar",
+      "name": "Bar",
+    },
+    "foo": Object {
+      "key": "foo",
+      "name": "Foo",
+    },
+  },
+  "my": Array [],
+}
+`;
+
+exports[`Reducer should receive organizations 2`] = `
+Object {
+  "byKey": Object {
+    "bar": Object {
+      "key": "bar",
+      "name": "Bar",
+    },
+    "foo": Object {
+      "key": "foo",
+      "name": "Qwe",
+    },
+  },
+  "my": Array [],
+}
+`;

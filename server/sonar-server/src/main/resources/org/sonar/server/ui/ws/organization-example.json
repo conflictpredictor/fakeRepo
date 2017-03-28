@@ -1,0 +1,7 @@
+{
+  "organization": {
+    "canAdmin": true,
+    "canProvisionProjects": true,
+    "canDelete": false
+  }
+}
